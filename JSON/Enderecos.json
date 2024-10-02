@@ -1,0 +1,54 @@
+[
+    {
+        "enderecoId": 1,
+        "pessoaId": 1,
+        "logradouro": "Rua das Flores",
+        "cidade": "São Paulo",
+        "bairro": "Jardim das Rosas",
+        "estado": "SP",
+        "numero": "123",
+        "cep": "01234-567",
+        "ativo": true,
+        "dataUltAlt": "2023-10-01T12:00:00Z",
+        "dataCadastro": "2023-01-01T12:00:00Z"
+    },
+    {
+        "enderecoId": 2,
+        "pessoaId": 2,
+        "logradouro": "Avenida Paulista",
+        "cidade": "São Paulo",
+        "bairro": "Bela Vista",
+        "estado": "SP",
+        "numero": "456",
+        "cep": "01310-000",
+        "ativo": true,
+        "dataUltAlt": "2023-10-01T12:00:00Z",
+        "dataCadastro": "2023-01-01T12:00:00Z"
+    },
+    {
+        "enderecoId": 3,
+        "pessoaId": 3,
+        "logradouro": "Rua XV de Novembro",
+        "cidade": "Curitiba",
+        "bairro": "Centro",
+        "estado": "PR",
+        "numero": "789",
+        "cep": "80020-310",
+        "ativo": true,
+        "dataUltAlt": "2023-10-01T12:00:00Z",
+        "dataCadastro": "2023-01-01T12:00:00Z"
+    },
+    {
+        "enderecoId": 4,
+        "pessoaId": 4,
+        "logradouro": "Rua das Palmeiras",
+        "cidade": "Rio de Janeiro",
+        "bairro": "Botafogo",
+        "estado": "RJ",
+        "numero": "101",
+        "cep": "22270-070",
+        "ativo": true,
+        "dataUltAlt": "2023-10-01T12:00:00Z",
+        "dataCadastro": "2023-01-01T12:00:00Z"
+    }
+]

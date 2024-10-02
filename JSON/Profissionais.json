@@ -1,0 +1,62 @@
+[
+    {
+        "profissionalId": 1,
+        "pessoaId": 1,
+        "profissao": "Médico",
+        "especialidadeId": 1,
+        "numeroConselho": "123456",
+        "email": "medico1@example.com",
+        "inicioExpediente": "08:00",
+        "finalExpediente": "17:00",
+        "almocoInicio": "12:00",
+        "almocoFinal": "13:00",
+        "ativo": true,
+        "dataUltAlt": "2023-10-01T12:00:00Z",
+        "dataCadastro": "2023-01-01T12:00:00Z"
+    },
+    {
+        "profissionalId": 2,
+        "pessoaId": 2,
+        "profissao": "Dentista",
+        "especialidadeId": 2,
+        "numeroConselho": "654321",
+        "email": "dentista@example.com",
+        "inicioExpediente": "09:00",
+        "finalExpediente": "18:00",
+        "almocoInicio": "13:00",
+        "almocoFinal": "14:00",
+        "ativo": true,
+        "dataUltAlt": "2023-10-01T12:00:00Z",
+        "dataCadastro": "2023-01-01T12:00:00Z"
+    },
+    {
+        "profissionalId": 3,
+        "pessoaId": 3,
+        "profissao": "Advogado",
+        "especialidadeId": 3,
+        "numeroConselho": "789012",
+        "email": "advogado@example.com",
+        "inicioExpediente": "10:00",
+        "finalExpediente": "19:00",
+        "almocoInicio": "14:00",
+        "almocoFinal": "15:00",
+        "ativo": true,
+        "dataUltAlt": "2023-10-01T12:00:00Z",
+        "dataCadastro": "2023-01-01T12:00:00Z"
+    },
+    {
+        "profissionalId": 4,
+        "pessoaId": 4,
+        "profissao": "Engenheiro",
+        "especialidadeId": 4,
+        "numeroConselho": "345678",
+        "email": "engenheiro@example.com",
+        "inicioExpediente": "07:00",
+        "finalExpediente": "16:00",
+        "almocoInicio": "11:00",
+        "almocoFinal": "12:00",
+        "ativo": true,
+        "dataUltAlt": "2023-10-01T12:00:00Z",
+        "dataCadastro": "2023-01-01T12:00:00Z"
+    }
+]

@@ -1,0 +1,5 @@
+profissionalId,pessoaId,profissao, especialidadeId,numeroConselho,email,                    inicioExpediente,   finalExpediente,almocoInicio,almocoFinal,ativo,dataUltAlt,          dataCadastro
+1,             1,       Médico,    1,              123456,        medico1@example.com,      08:00,              17:00,          12:00,       13:00,      true, 2023-10-01T12:00:00Z,2023-01-01T12:00:00Z
+2,             2,       Dentista,  2,              654321,        dentista@example.com,     09:00,              18:00,          13:00,       14:00,      true, 2023-10-01T12:00:00Z,2023-01-01T12:00:00Z
+3,             3,       Advogado,  3,              789012,        advogado@example.com,     10:00,              19:00,          14:00,       15:00,      true, 2023-10-01T12:00:00Z,2023-01-01T12:00:00Z
+4,             4,       Engenheiro,4,              345678,        engenheiro@example.com,   07:00,              16:00,          11:00,       12:00,      true, 2023-10-01T12:00:00Z,2023-01-01T12:00:00Z

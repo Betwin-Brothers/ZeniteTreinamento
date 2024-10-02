@@ -1,0 +1,15 @@
+{
+    "profissionalId": 1,
+    "pessoaId": 1,
+    "profissao": "Médico",
+    "especialidadeId": 1,
+    "numeroConselho": "123456",
+    "email": "medico@example.com",
+    "inicioExpediente": "08:00",
+    "finalExpediente": "17:00",
+    "almocoInicio": "12:00",
+    "almocoFinal": "13:00",
+    "ativo": true,
+    "dataUltAlt": "2023-10-01T12:00:00Z",
+    "dataCadastro": "2023-01-01T12:00:00Z"
+}

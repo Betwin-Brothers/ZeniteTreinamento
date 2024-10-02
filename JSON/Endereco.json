@@ -1,0 +1,13 @@
+{
+    "enderecoId": 1,
+    "pessoaId": 1,
+    "logradouro": "Rua das Flores",
+    "cidade": "São Paulo",
+    "bairro": "Jardim das Rosas",
+    "estado": "SP",
+    "numero": "123",
+    "cep": "01234-567",
+    "ativo": true,
+    "dataUltAlt": "2023-10-01T12:00:00Z",
+    "dataCadastro": "2023-01-01T12:00:00Z"
+}

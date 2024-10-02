@@ -1,0 +1,54 @@
+[
+    {
+        "pessoaId": 1,
+        "nome": "João",
+        "sobrenome": "Silva",
+        "sexo": "M",
+        "cpf": "123.456.789-00",
+        "telefone": "(11) 98765-4321",
+        "email": "joao.silva@example.com",
+        "dataNascimento": "1990-01-01",
+        "ativo": true,
+        "dataUltAlt": "2023-10-01T12:00:00Z",
+        "dataCadastro": "2023-01-01T12:00:00Z"
+    },
+    {
+        "pessoaId": 2,
+        "nome": "Maria",
+        "sobrenome": "Oliveira",
+        "sexo": "F",
+        "cpf": "987.654.321-00",
+        "telefone": "(21) 98765-4321",
+        "email": "maria.oliveira@example.com",
+        "dataNascimento": "1985-05-15",
+        "ativo": true,
+        "dataUltAlt": "2023-10-01T12:00:00Z",
+        "dataCadastro": "2023-01-01T12:00:00Z"
+    },
+    {
+        "pessoaId": 3,
+        "nome": "Carlos",
+        "sobrenome": "Santos",
+        "sexo": "M",
+        "cpf": "456.789.123-00",
+        "telefone": "(31) 98765-4321",
+        "email": "carlos.santos@example.com",
+        "dataNascimento": "1978-08-20",
+        "ativo": true,
+        "dataUltAlt": "2023-10-01T12:00:00Z",
+        "dataCadastro": "2023-01-01T12:00:00Z"
+    },
+    {
+        "pessoaId": 4,
+        "nome": "Ana",
+        "sobrenome": "Costa",
+        "sexo": "F",
+        "cpf": "321.654.987-00",
+        "telefone": "(41) 98765-4321",
+        "email": "ana.costa@example.com",
+        "dataNascimento": "1995-12-30",
+        "ativo": true,
+        "dataUltAlt": "2023-10-01T12:00:00Z",
+        "dataCadastro": "2023-01-01T12:00:00Z"
+    }
+]
