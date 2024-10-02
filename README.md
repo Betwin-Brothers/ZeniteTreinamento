@@ -7,3 +7,7 @@ Se precisar de alguma ajuda para clonar o projeto ou criar a sua branch, entre e
 Bons estudos.
 
 <img src="giphy.webp">
+
+---
+### Quem já passou por aqui
+Link do github: 
