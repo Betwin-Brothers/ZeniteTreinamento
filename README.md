@@ -6,4 +6,4 @@ Se precisar de alguma ajuda para clonar o projeto ou criar a sua branch, entre e
 
 Bons estudos.
 
-<iframe src="https://giphy.com/embed/93UOscPyDH8cdRfSaT" width="480" height="379" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ProductDock-programming-rules-productdock-93UOscPyDH8cdRfSaT">via GIPHY</a></p>
+<img src="giphy.webp">
