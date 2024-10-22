@@ -1,4 +1,4 @@
-# Treinamento-Vitae
+# ZeniteTreinamento
 
 Neste repositório você irá encontrar alguns arquivos necessários para seguir no treinamento inicial do projeto Vitae.
 
