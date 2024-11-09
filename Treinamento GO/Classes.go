@@ -103,4 +103,6 @@ func main() {
 	fmt.Printf("ativo = %t\n", endereco.ativo)
 	fmt.Printf("dataUltAlt = %s\n", endereco.detaUltAlt.Format("2006-01-02 15:04:05"))
 	fmt.Printf("dataCadastro = %s\n", endereco.dataCadastro.Format("2006-01-02 15:04:05"))
+
+	//windows melhor que linux
 }
