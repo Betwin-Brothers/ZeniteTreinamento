@@ -26,7 +26,7 @@ type Endereco struct {
 	Cidade       string    `json:"cidade"`
 	Bairro       string    `json:"bairro"`
 	Estado       string    `json:"estado"`
-	Numero       int       `json:"numero"`
+	Numero       string    `json:"numero"`
 	Cep          string    `json:"cep"`
 	Ativo        bool      `json:"ativo"`
 	DataUltAlt   time.Time `json:"dataUltAlt"`
