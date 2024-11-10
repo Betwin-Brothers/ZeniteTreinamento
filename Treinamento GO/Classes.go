@@ -20,17 +20,17 @@ type Pessoa struct {
 }
 
 type Endereco struct {
-	enderecoId   int       `json:"enderecoId"`
-	pessoaId     int       `json:"pessoaId"`
-	logradouro   string    `json:"logradouro"`
-	cidade       string    `json:"cidade"`
-	bairro       string    `json:"bairro"`
-	estado       string    `json:"estado"`
-	numero       int       `json:"numero"`
-	cep          string    `json:"cep"`
-	ativo        bool      `json:"ativo"`
-	detaUltAlt   time.Time `json:"dataUltAlt"`
-	dataCadastro time.Time `json:"dataCadastro"`
+	EnderecoId   int       `json:"enderecoId"`
+	PessoaId     int       `json:"pessoaId"`
+	Logradouro   string    `json:"logradouro"`
+	Cidade       string    `json:"cidade"`
+	Bairro       string    `json:"bairro"`
+	Estado       string    `json:"estado"`
+	Numero       int       `json:"numero"`
+	Cep          string    `json:"cep"`
+	Ativo        bool      `json:"ativo"`
+	DataUltAlt   time.Time `json:"dataUltAlt"`
+	DataCadastro time.Time `json:"dataCadastro"`
 }
 
 type Profissional struct {
@@ -65,17 +65,33 @@ func main() {
 		DataCadastro:   time.Now(),
 	}
 	endereco := Endereco{
-		enderecoId:   1,
-		pessoaId:     pessoa.PessoaId,
-		logradouro:   "Rua das Flores",
-		cidade:       "São Paulo",
-		bairro:       "Centro",
-		estado:       "SP",
-		numero:       123,
-		cep:          "12345678",
-		ativo:        true,
-		detaUltAlt:   time.Now(),
-		dataCadastro: time.Now(),
+		EnderecoId:   1,
+		PessoaId:     pessoa.PessoaId,
+		Logradouro:   "Rua das Flores",
+		Cidade:       "São Paulo",
+		Bairro:       "Centro",
+		Estado:       "SP",
+		Numero:       123,
+		Cep:          "12345678",
+		Ativo:        true,
+		DataUltAlt:   time.Now(),
+		DataCadastro: time.Now(),
+	}
+
+	profissional := Profissional{
+		ProfissionalId:   1,
+		PessoaId:         1,
+		Profissao:        "Médico",
+		EspecialidadeId:  101,
+		NumeroConselho:   12345,
+		Email:            "medico@example.com",
+		InicioExpediente: time.Now(),
+		FinalExpediente:  time.Now().Add(8 * time.Hour),
+		AlmocoInicio:     time.Now().Add(4 * time.Hour),
+		AlmocoFinal:      time.Now().Add(5 * time.Hour),
+		Ativo:            true,
+		DataUltAlt:       time.Now(),
+		DataCadastro:     time.Now(),
 	}
 
 	fmt.Printf("PessoaID = %d\n", pessoa.PessoaId)
@@ -92,17 +108,31 @@ func main() {
 
 	fmt.Printf("////////////////////////////////////////////////////\n")
 
-	fmt.Printf("enderecoId = %d\n", endereco.enderecoId)
-	fmt.Printf("pessoaId = %d\n", endereco.pessoaId)
-	fmt.Printf("logradouro = %s\n", endereco.logradouro)
-	fmt.Printf("cidade = %s\n", endereco.cidade)
-	fmt.Printf("bairro = %s\n", endereco.bairro)
-	fmt.Printf("estado = %s\n", endereco.estado)
-	fmt.Printf("numero = %d\n", endereco.numero)
-	fmt.Printf("cep = %s\n", endereco.cep)
-	fmt.Printf("ativo = %t\n", endereco.ativo)
-	fmt.Printf("dataUltAlt = %s\n", endereco.detaUltAlt.Format("2006-01-02 15:04:05"))
-	fmt.Printf("dataCadastro = %s\n", endereco.dataCadastro.Format("2006-01-02 15:04:05"))
+	fmt.Println("EnderecoId:", endereco.EnderecoId)
+	fmt.Println("PessoaId:", endereco.PessoaId)
+	fmt.Println("Logradouro:", endereco.Logradouro)
+	fmt.Println("Cidade:", endereco.Cidade)
+	fmt.Println("Bairro:", endereco.Bairro)
+	fmt.Println("Estado:", endereco.Estado)
+	fmt.Println("Numero:", endereco.Numero)
+	fmt.Println("Cep:", endereco.Cep)
+	fmt.Println("Ativo:", endereco.Ativo)
+	fmt.Println("DataUltAlt:", endereco.DataUltAlt)
+	fmt.Println("DataCadastro:", endereco.DataCadastro)
 
-	//windows melhor que linux
+	fmt.Printf("////////////////////////////////////////////////////\n")
+
+	fmt.Println("ProfissionalId:", profissional.ProfissionalId)
+	fmt.Println("PessoaId:", profissional.PessoaId)
+	fmt.Println("Profissao:", profissional.Profissao)
+	fmt.Println("EspecialidadeId:", profissional.EspecialidadeId)
+	fmt.Println("NumeroConselho:", profissional.NumeroConselho)
+	fmt.Println("Email:", profissional.Email)
+	fmt.Println("InicioExpediente:", profissional.InicioExpediente)
+	fmt.Println("FinalExpediente:", profissional.FinalExpediente)
+	fmt.Println("AlmocoInicio:", profissional.AlmocoInicio)
+	fmt.Println("AlmocoFinal:", profissional.AlmocoFinal)
+	fmt.Println("Ativo:", profissional.Ativo)
+	fmt.Println("DataUltAlt:", profissional.DataUltAlt)
+	fmt.Println("DataCadastro:", profissional.DataCadastro)
 }
